@@ -3,5 +3,8 @@ aws:
   secret_access_key: <%= ENV["AWS_SECRET_ACCESS_KEY"] %>
   region: <%= ENV["AWS_REGION"] %>
 concurrency: 1
+delay: 10
+receive_message:
+  wait_time_seconds: 20
 queues:
   - test_1
