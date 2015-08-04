@@ -6,6 +6,9 @@ gem 'pg'
 
 gem 'jbuilder', '~> 2.0'
 
+gem 'shoryuken', '~> 1.0'
+gem "figaro"
+
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
