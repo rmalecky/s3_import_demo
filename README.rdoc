@@ -1,0 +1,3 @@
+== README
+
+This app is a test of loading data from S3 into the app database via the app. 
